@@ -1,0 +1,26 @@
+.salir{
+	float: right;
+	line-height: 50px;
+}
+
+.salir a{
+	padding: 5px 30px;
+	margin:auto 5px; 
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	background: #FBA501;
+	border-radius: 5px;
+}
+
+.salir a:hover{
+	color:#000;
+	background: #fff;
+}
+
+.saludo{
+	border-right: solid 1px;
+	padding: 0px 30px;
+	color:white;
+	font-weight: bold;
+}

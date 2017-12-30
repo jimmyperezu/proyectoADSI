@@ -1,0 +1,48 @@
+.navegacion_lateral {
+  min-width: 200px;
+  /*min-height: 100%;*/
+  margin: 0;
+  padding: 0;
+  /*background-color: #ff0000;*/
+}
+
+.menu_lateral, .sub_menu_lateral {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_lateral a {
+  display: block;
+  background-color: #226F95;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  border-bottom: solid 2px #fba501;
+}
+
+.menu_lateral a:hover {
+    background-color: #fff;
+    color:000;
+    border-left: solid 15px #FBA501;
+}
+
+.menu_lateral li:hover .sub_menu_lateral {
+  display: block;
+  max-height: 200px;
+}
+
+.sub_menu_lateral a {
+  background-color: #999;
+}
+
+.sub_menu_lateral a:hover {
+  background-color: #666;
+  color:#fff;
+}
+
+.sub_menu_lateral {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}

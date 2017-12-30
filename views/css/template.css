@@ -1,0 +1,46 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.cuerpo{
+	padding: 0px;
+	margin: 0px;
+}
+
+.superior{
+	height: 50px;
+	width: 100%;
+	background-color: #226F95;
+	border-bottom: solid 2px #fba501;
+}
+
+.superior p{
+	padding: 0;
+	margin: 0;
+}
+
+.lateral{
+	float:left;
+	width: 15%;
+}
+
+.contenido-sc{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.contenido-sc p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.contenido-cc{
+	float: right;
+	width: 85%;
+}
+
+.contenido-cc p{
+	padding: 0px;
+	margin: 0px;
+}
